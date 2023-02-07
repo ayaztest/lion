@@ -165,7 +165,7 @@ const [showPopup, setShowPopup] = useState(false)
     <div className='min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12 bg-cover'
   style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2016/08/02/07/45/the-polygon-1562743_960_720.jpg')" }}>
     <div className='relative py-3 sm:max-w-xl sm:mx-auto mb-14'>
-     <ConnectWallet />  {!hasClaimedNFT ? (
+     <ConnectWallet />  {hasClaimedNFT ? (
   <main className='relative mt-4 px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 bg-clip-padding bg-opacity-90 border border-gray-200' >
    <div>
           <img src="https://presend.io/wp-content/uploads/2023/02/pb.png" className="h-16 sm:h-24" />
